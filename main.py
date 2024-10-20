@@ -33,8 +33,7 @@ class GUISensors(QMainWindow):
                         temp = line.split()[-2].strip('+°C')
                         break
                 if temp:
-                    temp = float(temp)
-                    status_text += f"CPU Temperature: {temp}°C"
+                    status_text += f"{temp_output}"
                 else:
                     status_text += f"{temp_output}"
             except Exception as e:
