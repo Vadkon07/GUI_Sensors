@@ -15,9 +15,12 @@ I think that a lot of Linux users like to check their CPU sensors, but a lot of 
 ## How to install?
 
 1) Clone repository
-2) Install from your OS's manager lm-sensors (sudo apt install lm-sensors)
+2) Install lm-sensors (sudo apt install lm-sensors)
+3) Install pyqt6
+4) Install psutil
+
+*You can download all these packages by your OS's package manager (pacman, apt, etc) or python's pip.
 
 # To-Do
 
-- [ ] **Minimze usage of CPU, RAM, etc:** To show a real results and not affect perfomance in any way we should make this app veeery minimalistic. We have to clean code and remove from him as much as we can.
-- [ ] **Dark Theme:** Just add a black mode to make it more comfortable for eyes if user have to check his CPU temperature at night.
+- [+] **Minimze usage of CPU, RAM, etc:** To show a real results and not affect perfomance in any way we should make this app veeery minimalistic. We have to clean code and remove from him as much as we can.
